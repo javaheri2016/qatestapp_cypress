@@ -30,7 +30,7 @@ describe('Provide an echo command', () => {
     var com = "sample"
     it('should navigate to QATest app', () => {
         cy.visit('https://qa-task.netlify.app/') 
-        cy.get('#mat-input-0').type("echo " + com)   
+        cy.get('#mat-input-0').type("echo " + com)
         cy.get('.mat-button').click()
         cy.get('pre').contains(com)
     })
