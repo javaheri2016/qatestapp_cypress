@@ -7,5 +7,7 @@
 - git
 
 3. Setup
-clone: git@github.com:javaheri2016/qatestapp_cypress.git
+
+clone: ```git@github.com:javaheri2016/qatestapp_cypress.git```
+
 install: npm i
